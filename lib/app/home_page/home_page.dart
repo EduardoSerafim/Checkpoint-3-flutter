@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                     controller.fontIncrease();
                   },
                   child: const Text("+",style: TextStyle(fontSize: 20))),
-             
+              SizedBox(height: 20,),
               ElevatedButton(
                   onPressed: () {
                     controller.fontDecrease();
